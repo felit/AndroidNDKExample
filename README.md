@@ -1,0 +1,13 @@
+- 编译过程
+- 名称
+- 输入参数
+- 输出参数
+- NDK做了哪些SDK做不了的事情？
+- com.android.tools.r8.errors.b: Absent Code attribute in method that is not native or abstract
+- Android10-framework.jar: git clone https://gitee.com/sanra/android-jar-with-hidden-api.git
+- @hide列表？
+- @SystemApi
+- android 中用代码模拟发送按键: https://blog.csdn.net/xct841990555/article/details/100182058
+- Android 代码模拟物理按键的几种方式: https://blog.csdn.net/ezconn/article/details/109824411
+- Android KEYCODE键值对应大全:  https://blog.csdn.net/u012014531/article/details/112990547
+- Android权限列表permission说明: https://www.cnblogs.com/jxldjsn/p/6011687.html

@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                                                               MainActivity.this.pressKey(inputManager,KEYCODE_F);
                                                               MainActivity.this.pressKey(inputManager,KEYCODE_R);
                                                               MainActivity.this.pressKey(inputManager,KEYCODE_SLEEP);
-
+                                                              MainActivity.this.binding.sampleText.setText(ss());
                                                           }
                                                       }
         );
@@ -78,16 +78,18 @@ public class MainActivity extends AppCompatActivity {
 
     public native String dtoFromJNI(byte byteVal,
                                     char charVal,
+                                    short shortVal,
                                     int intVal,
                                     long lVal,
                                     boolean bVal,
                                     float fVal,
                                     double dVal,
                                     Date date,
-                                    SystemInfoDTO dto
+                                    SystemInfoDTO dto,
+                                    String ss
     );
 
     public String ss() {
-        return this.dtoFromJNI((byte) 1, 'c', 12, 23L, true, 1.0f, 2.33D, new Date(), new SystemInfoDTO());
+        return this.dtoFromJNI((byte) 1, 'c', (short) 1,12, 23L, false, 1.0f, 2.33D, new Date(), new SystemInfoDTO(),"hello");
     }
 }

@@ -11,3 +11,4 @@
 - Android 代码模拟物理按键的几种方式: https://blog.csdn.net/ezconn/article/details/109824411
 - Android KEYCODE键值对应大全:  https://blog.csdn.net/u012014531/article/details/112990547
 - Android权限列表permission说明: https://www.cnblogs.com/jxldjsn/p/6011687.html
+- 
